@@ -12,6 +12,6 @@ if st.button("Calculate"):
     total = 0
     for n in range (1, n+1):
       ans = (a1+(n-1)*d)
-      print(ans)
+      st.write(ans)
       total += ans
-    print(f"Total: {total}")
+    st.write(f"Total: {total}")
