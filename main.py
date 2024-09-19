@@ -3,7 +3,7 @@ st.title("Arithmetic Sequences & Series Python Program")
 choice = st.selectbox("Select your requested calculation", ["Sequences", "Series"])
 d = st.number_input("Common Difference")
 a1 = st.number_input("Starting value (a1)")
-n = st.number_input("Number of terms")
+n = int(st.number_input("Number of terms"))
 if st.button("Calculate"):
   if choice == "Sequences":
     ans = (a1+(n-1)*d)
